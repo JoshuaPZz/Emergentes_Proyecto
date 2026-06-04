@@ -1,0 +1,421 @@
+2026-06-03 22:59:34 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 22:59:34 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 22:59:34 | INFO     | Poligonos validos para extraccion: 9
+2026-06-03 22:59:34 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 22:59:37 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 22:59:37 | INFO     | Total pixeles en dataset: 4899949
+2026-06-03 22:59:37 | INFO     | Pixeles por clase:
+2026-06-03 22:59:37 | INFO     |   - Arena: 1953467 pixeles (39.87%)
+2026-06-03 22:59:37 | INFO     |   - Playa_sal: 1948383 pixeles (39.76%)
+2026-06-03 22:59:37 | INFO     |   - Agua: 998099 pixeles (20.37%)
+2026-06-03 23:00:02 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:00:26 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:00:27 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:00:29 | INFO     | Split estratificado completado | train=3429964 test=1469985
+2026-06-03 23:00:29 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:00:29 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:03:18 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:03:18 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:03:19 | INFO     | Poligonos validos para extraccion: 9
+2026-06-03 23:03:19 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:03:19 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:03:19 | INFO     | Total pixeles en dataset: 535431
+2026-06-03 23:03:19 | INFO     | Pixeles por clase:
+2026-06-03 23:03:19 | INFO     |   - Arena: 238582 pixeles (44.56%)
+2026-06-03 23:03:19 | INFO     |   - Agua: 157738 pixeles (29.46%)
+2026-06-03 23:03:19 | INFO     |   - Playa_sal: 139111 pixeles (25.98%)
+2026-06-03 23:03:22 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:03:24 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:03:25 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:03:25 | INFO     | Split estratificado completado | train=374801 test=160630
+2026-06-03 23:03:25 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:03:25 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:03:27 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:03:27 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:03:31 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:03:31 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:04:57 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:04:57 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:04:57 | INFO     | Poligonos validos para extraccion: 9
+2026-06-03 23:04:57 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:04:57 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:04:57 | INFO     | Total pixeles en dataset: 60291
+2026-06-03 23:04:57 | INFO     | Pixeles por clase:
+2026-06-03 23:04:57 | INFO     |   - Playa_sal: 28644 pixeles (47.51%)
+2026-06-03 23:04:57 | INFO     |   - Agua: 15842 pixeles (26.28%)
+2026-06-03 23:04:57 | INFO     |   - Arena: 15805 pixeles (26.21%)
+2026-06-03 23:04:58 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:04:58 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:04:58 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:04:58 | INFO     | Split estratificado completado | train=42203 test=18088
+2026-06-03 23:04:58 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:04:58 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:04:58 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:04:58 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:04:58 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:04:58 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:04:59 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_KNN.png
+2026-06-03 23:04:59 | INFO     | Entrenando modelo: GaussianNB
+2026-06-03 23:04:59 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_GaussianNB.png
+2026-06-03 23:04:59 | INFO     | Entrenando modelo: MLPClassifier
+2026-06-03 23:05:02 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_MLPClassifier.png
+2026-06-03 23:05:02 | INFO     | Entrenando modelo: RandomForest
+2026-06-03 23:05:04 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_RandomForest.png
+2026-06-03 23:05:04 | INFO     | Mejor modelo seleccionado: DecisionTree
+2026-06-03 23:05:04 | INFO     | Score mejor modelo | f1_macro=1.0000 kappa=1.0000
+2026-06-03 23:05:05 | INFO     | Graficos comparativos generados: 5
+2026-06-03 23:05:05 | INFO     | Feature importance exportado: outputs\feature_importance_DecisionTree.csv
+2026-06-03 23:05:05 | INFO     | Modelo entrenado exportado: outputs\best_model_DecisionTree.joblib
+2026-06-03 23:05:05 | ERROR    | Error no controlado: `Import tabulate` failed.  Use pip or conda to install the tabulate package.
+2026-06-03 23:05:31 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:05:31 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:05:31 | INFO     | Poligonos validos para extraccion: 9
+2026-06-03 23:05:31 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:05:31 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:05:31 | INFO     | Total pixeles en dataset: 60291
+2026-06-03 23:05:31 | INFO     | Pixeles por clase:
+2026-06-03 23:05:31 | INFO     |   - Playa_sal: 28644 pixeles (47.51%)
+2026-06-03 23:05:31 | INFO     |   - Agua: 15842 pixeles (26.28%)
+2026-06-03 23:05:31 | INFO     |   - Arena: 15805 pixeles (26.21%)
+2026-06-03 23:05:32 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:05:32 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:05:32 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:05:32 | INFO     | Split estratificado completado | train=42203 test=18088
+2026-06-03 23:05:32 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:05:32 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:05:32 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:05:32 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:05:32 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:05:32 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:05:33 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_KNN.png
+2026-06-03 23:05:33 | INFO     | Entrenando modelo: GaussianNB
+2026-06-03 23:05:33 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_GaussianNB.png
+2026-06-03 23:05:33 | INFO     | Entrenando modelo: MLPClassifier
+2026-06-03 23:05:37 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_MLPClassifier.png
+2026-06-03 23:05:37 | INFO     | Entrenando modelo: RandomForest
+2026-06-03 23:05:39 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_RandomForest.png
+2026-06-03 23:05:39 | INFO     | Mejor modelo seleccionado: DecisionTree
+2026-06-03 23:05:39 | INFO     | Score mejor modelo | f1_macro=1.0000 kappa=1.0000
+2026-06-03 23:05:39 | INFO     | Graficos comparativos generados: 5
+2026-06-03 23:05:40 | INFO     | Feature importance exportado: outputs\feature_importance_DecisionTree.csv
+2026-06-03 23:05:40 | INFO     | Modelo entrenado exportado: outputs\best_model_DecisionTree.joblib
+2026-06-03 23:05:40 | ERROR    | Error no controlado: `Import tabulate` failed.  Use pip or conda to install the tabulate package.
+2026-06-03 23:06:55 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:06:55 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:06:55 | INFO     | Poligonos validos para extraccion: 9
+2026-06-03 23:06:55 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:06:55 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:06:55 | INFO     | Total pixeles en dataset: 50372
+2026-06-03 23:06:55 | INFO     | Pixeles por clase:
+2026-06-03 23:06:55 | INFO     |   - Playa_sal: 18725 pixeles (37.17%)
+2026-06-03 23:06:55 | INFO     |   - Agua: 15842 pixeles (31.45%)
+2026-06-03 23:06:55 | INFO     |   - Arena: 15805 pixeles (31.38%)
+2026-06-03 23:06:56 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:06:56 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:06:56 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:06:56 | INFO     | Split estratificado completado | train=35260 test=15112
+2026-06-03 23:06:56 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:06:56 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:06:56 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:06:56 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:06:56 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:06:56 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:06:57 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_KNN.png
+2026-06-03 23:06:57 | INFO     | Entrenando modelo: GaussianNB
+2026-06-03 23:06:57 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_GaussianNB.png
+2026-06-03 23:06:57 | INFO     | Entrenando modelo: MLPClassifier
+2026-06-03 23:07:00 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_MLPClassifier.png
+2026-06-03 23:07:00 | INFO     | Entrenando modelo: RandomForest
+2026-06-03 23:07:01 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_RandomForest.png
+2026-06-03 23:07:01 | INFO     | Mejor modelo seleccionado: DecisionTree
+2026-06-03 23:07:01 | INFO     | Score mejor modelo | f1_macro=1.0000 kappa=1.0000
+2026-06-03 23:07:02 | INFO     | Graficos comparativos generados: 5
+2026-06-03 23:07:02 | INFO     | Feature importance exportado: outputs\feature_importance_DecisionTree.csv
+2026-06-03 23:07:02 | INFO     | Modelo entrenado exportado: outputs\best_model_DecisionTree.joblib
+2026-06-03 23:07:02 | ERROR    | Error no controlado: `Import tabulate` failed.  Use pip or conda to install the tabulate package.
+2026-06-03 23:08:06 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:08:06 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:08:06 | INFO     | Poligonos validos para extraccion: 9
+2026-06-03 23:08:06 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:08:06 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:08:06 | INFO     | Total pixeles en dataset: 50372
+2026-06-03 23:08:06 | INFO     | Pixeles por clase:
+2026-06-03 23:08:06 | INFO     |   - Playa_sal: 18725 pixeles (37.17%)
+2026-06-03 23:08:06 | INFO     |   - Agua: 15842 pixeles (31.45%)
+2026-06-03 23:08:06 | INFO     |   - Arena: 15805 pixeles (31.38%)
+2026-06-03 23:08:07 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:08:07 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:08:07 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:08:07 | INFO     | Split estratificado completado | train=35260 test=15112
+2026-06-03 23:08:07 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:08:07 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:08:07 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:08:07 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:08:07 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:08:07 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:08:08 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_KNN.png
+2026-06-03 23:08:08 | INFO     | Entrenando modelo: GaussianNB
+2026-06-03 23:08:08 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_GaussianNB.png
+2026-06-03 23:08:08 | INFO     | Entrenando modelo: MLPClassifier
+2026-06-03 23:08:11 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_MLPClassifier.png
+2026-06-03 23:08:11 | INFO     | Entrenando modelo: RandomForest
+2026-06-03 23:08:12 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_RandomForest.png
+2026-06-03 23:08:12 | INFO     | Mejor modelo seleccionado: DecisionTree
+2026-06-03 23:08:12 | INFO     | Score mejor modelo | f1_macro=1.0000 kappa=1.0000
+2026-06-03 23:08:13 | INFO     | Graficos comparativos generados: 5
+2026-06-03 23:08:13 | INFO     | Feature importance exportado: outputs\feature_importance_DecisionTree.csv
+2026-06-03 23:08:13 | INFO     | Modelo entrenado exportado: outputs\best_model_DecisionTree.joblib
+2026-06-03 23:08:13 | INFO     | Reporte final generado: outputs\final_report.md
+2026-06-03 23:08:13 | INFO     | Pipeline finalizado con exito
+2026-06-03 23:08:13 | INFO     | Archivos clave:
+2026-06-03 23:08:13 | INFO     |   - Dataset TSV: outputs\training.tsv
+2026-06-03 23:08:13 | INFO     |   - Metricas: outputs\metrics_models.csv
+2026-06-03 23:08:13 | INFO     |   - Ranking: outputs\ranking_models.csv
+2026-06-03 23:08:13 | INFO     |   - Modelo: outputs\best_model_DecisionTree.joblib
+2026-06-03 23:08:13 | INFO     |   - Reporte: outputs\final_report.md
+2026-06-03 23:17:22 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:17:22 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:17:22 | INFO     | Poligonos validos para extraccion: 15
+2026-06-03 23:17:22 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:17:22 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:17:22 | INFO     | Total pixeles en dataset: 69564
+2026-06-03 23:17:22 | INFO     | Pixeles por clase:
+2026-06-03 23:17:22 | INFO     |   - Playa_sal: 30588 pixeles (43.97%)
+2026-06-03 23:17:22 | INFO     |   - Agua: 21193 pixeles (30.47%)
+2026-06-03 23:17:22 | INFO     |   - Arena: 17783 pixeles (25.56%)
+2026-06-03 23:17:22 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:17:23 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:17:23 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:17:23 | INFO     | Split estratificado completado | train=48694 test=20870
+2026-06-03 23:17:23 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:17:23 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:17:23 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:17:23 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:17:23 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:17:23 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:17:24 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_KNN.png
+2026-06-03 23:17:24 | INFO     | Entrenando modelo: GaussianNB
+2026-06-03 23:17:24 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_GaussianNB.png
+2026-06-03 23:17:24 | INFO     | Entrenando modelo: MLPClassifier
+2026-06-03 23:17:29 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_MLPClassifier.png
+2026-06-03 23:17:29 | INFO     | Entrenando modelo: RandomForest
+2026-06-03 23:17:31 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_RandomForest.png
+2026-06-03 23:17:31 | INFO     | Mejor modelo seleccionado: SVM
+2026-06-03 23:17:31 | INFO     | Score mejor modelo | f1_macro=1.0000 kappa=1.0000
+2026-06-03 23:17:32 | INFO     | Graficos comparativos generados: 5
+2026-06-03 23:17:32 | INFO     | Modelo entrenado exportado: outputs\best_model_SVM.joblib
+2026-06-03 23:17:32 | INFO     | Reporte final generado: outputs\final_report.md
+2026-06-03 23:17:32 | INFO     | Pipeline finalizado con exito
+2026-06-03 23:17:32 | INFO     | Archivos clave:
+2026-06-03 23:17:32 | INFO     |   - Dataset TSV: outputs\training.tsv
+2026-06-03 23:17:32 | INFO     |   - Metricas: outputs\metrics_models.csv
+2026-06-03 23:17:32 | INFO     |   - Ranking: outputs\ranking_models.csv
+2026-06-03 23:17:32 | INFO     |   - Modelo: outputs\best_model_SVM.joblib
+2026-06-03 23:17:32 | INFO     |   - Reporte: outputs\final_report.md
+2026-06-03 23:19:23 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:19:23 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:19:23 | INFO     | Poligonos validos para extraccion: 16
+2026-06-03 23:19:23 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:19:23 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:19:23 | INFO     | Total pixeles en dataset: 69446
+2026-06-03 23:19:23 | INFO     | Pixeles por clase:
+2026-06-03 23:19:23 | INFO     |   - Playa_sal: 27941 pixeles (40.23%)
+2026-06-03 23:19:23 | INFO     |   - Agua: 21957 pixeles (31.62%)
+2026-06-03 23:19:23 | INFO     |   - Arena: 19548 pixeles (28.15%)
+2026-06-03 23:19:23 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:19:24 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:19:24 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:19:24 | INFO     | Split estratificado completado | train=48612 test=20834
+2026-06-03 23:19:24 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:19:24 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:19:24 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:19:24 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:19:24 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:19:24 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:19:25 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_KNN.png
+2026-06-03 23:19:25 | INFO     | Entrenando modelo: GaussianNB
+2026-06-03 23:19:25 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_GaussianNB.png
+2026-06-03 23:19:25 | INFO     | Entrenando modelo: MLPClassifier
+2026-06-03 23:19:29 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_MLPClassifier.png
+2026-06-03 23:19:29 | INFO     | Entrenando modelo: RandomForest
+2026-06-03 23:19:32 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_RandomForest.png
+2026-06-03 23:19:32 | INFO     | Mejor modelo seleccionado: SVM
+2026-06-03 23:19:32 | INFO     | Score mejor modelo | f1_macro=1.0000 kappa=1.0000
+2026-06-03 23:19:33 | INFO     | Graficos comparativos generados: 5
+2026-06-03 23:19:33 | INFO     | Modelo entrenado exportado: outputs\best_model_SVM.joblib
+2026-06-03 23:19:33 | INFO     | Reporte final generado: outputs\final_report.md
+2026-06-03 23:19:33 | INFO     | Pipeline finalizado con exito
+2026-06-03 23:19:33 | INFO     | Archivos clave:
+2026-06-03 23:19:33 | INFO     |   - Dataset TSV: outputs\training.tsv
+2026-06-03 23:19:33 | INFO     |   - Metricas: outputs\metrics_models.csv
+2026-06-03 23:19:33 | INFO     |   - Ranking: outputs\ranking_models.csv
+2026-06-03 23:19:33 | INFO     |   - Modelo: outputs\best_model_SVM.joblib
+2026-06-03 23:19:33 | INFO     |   - Reporte: outputs\final_report.md
+2026-06-03 23:20:03 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:20:03 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:20:04 | INFO     | Poligonos validos para extraccion: 16
+2026-06-03 23:20:04 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:20:04 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:20:04 | INFO     | Total pixeles en dataset: 69446
+2026-06-03 23:20:04 | INFO     | Pixeles por clase:
+2026-06-03 23:20:04 | INFO     |   - Playa_sal: 27941 pixeles (40.23%)
+2026-06-03 23:20:04 | INFO     |   - Agua: 21957 pixeles (31.62%)
+2026-06-03 23:20:04 | INFO     |   - Arena: 19548 pixeles (28.15%)
+2026-06-03 23:20:04 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:20:04 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:20:04 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:20:04 | INFO     | Split estratificado completado | train=48612 test=20834
+2026-06-03 23:20:04 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:20:04 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:20:05 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:20:05 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:20:05 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:20:05 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:20:06 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_KNN.png
+2026-06-03 23:20:06 | INFO     | Entrenando modelo: GaussianNB
+2026-06-03 23:20:06 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_GaussianNB.png
+2026-06-03 23:20:06 | INFO     | Entrenando modelo: MLPClassifier
+2026-06-03 23:20:10 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_MLPClassifier.png
+2026-06-03 23:20:10 | INFO     | Entrenando modelo: RandomForest
+2026-06-03 23:20:12 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_RandomForest.png
+2026-06-03 23:20:12 | INFO     | Mejor modelo seleccionado: SVM
+2026-06-03 23:20:12 | INFO     | Score mejor modelo | f1_macro=1.0000 kappa=1.0000
+2026-06-03 23:20:13 | INFO     | Graficos comparativos generados: 5
+2026-06-03 23:20:13 | INFO     | Modelo entrenado exportado: outputs\best_model_SVM.joblib
+2026-06-03 23:20:13 | INFO     | Reporte final generado: outputs\final_report.md
+2026-06-03 23:20:13 | INFO     | Pipeline finalizado con exito
+2026-06-03 23:20:13 | INFO     | Archivos clave:
+2026-06-03 23:20:13 | INFO     |   - Dataset TSV: outputs\training.tsv
+2026-06-03 23:20:13 | INFO     |   - Metricas: outputs\metrics_models.csv
+2026-06-03 23:20:13 | INFO     |   - Ranking: outputs\ranking_models.csv
+2026-06-03 23:20:13 | INFO     |   - Modelo: outputs\best_model_SVM.joblib
+2026-06-03 23:20:13 | INFO     |   - Reporte: outputs\final_report.md
+2026-06-03 23:20:18 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:20:18 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:20:18 | INFO     | Poligonos validos para extraccion: 18
+2026-06-03 23:20:18 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:20:18 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:20:18 | INFO     | Total pixeles en dataset: 72170
+2026-06-03 23:20:18 | INFO     | Pixeles por clase:
+2026-06-03 23:20:18 | INFO     |   - Playa_sal: 27941 pixeles (38.72%)
+2026-06-03 23:20:18 | INFO     |   - Agua: 23246 pixeles (32.21%)
+2026-06-03 23:20:18 | INFO     |   - Arena: 20983 pixeles (29.07%)
+2026-06-03 23:20:18 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:20:19 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:20:19 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:20:19 | INFO     | Split estratificado completado | train=50519 test=21651
+2026-06-03 23:20:19 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:20:19 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:20:19 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:20:19 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:20:19 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:20:19 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:20:20 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_KNN.png
+2026-06-03 23:20:20 | INFO     | Entrenando modelo: GaussianNB
+2026-06-03 23:20:20 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_GaussianNB.png
+2026-06-03 23:20:20 | INFO     | Entrenando modelo: MLPClassifier
+2026-06-03 23:20:25 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_MLPClassifier.png
+2026-06-03 23:20:25 | INFO     | Entrenando modelo: RandomForest
+2026-06-03 23:20:27 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_RandomForest.png
+2026-06-03 23:20:27 | INFO     | Mejor modelo seleccionado: SVM
+2026-06-03 23:20:27 | INFO     | Score mejor modelo | f1_macro=1.0000 kappa=1.0000
+2026-06-03 23:20:28 | INFO     | Graficos comparativos generados: 5
+2026-06-03 23:20:28 | INFO     | Modelo entrenado exportado: outputs\best_model_SVM.joblib
+2026-06-03 23:20:28 | INFO     | Reporte final generado: outputs\final_report.md
+2026-06-03 23:20:28 | INFO     | Pipeline finalizado con exito
+2026-06-03 23:20:28 | INFO     | Archivos clave:
+2026-06-03 23:20:28 | INFO     |   - Dataset TSV: outputs\training.tsv
+2026-06-03 23:20:28 | INFO     |   - Metricas: outputs\metrics_models.csv
+2026-06-03 23:20:28 | INFO     |   - Ranking: outputs\ranking_models.csv
+2026-06-03 23:20:28 | INFO     |   - Modelo: outputs\best_model_SVM.joblib
+2026-06-03 23:20:28 | INFO     |   - Reporte: outputs\final_report.md
+2026-06-03 23:21:27 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:21:27 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:21:27 | INFO     | Poligonos validos para extraccion: 20
+2026-06-03 23:21:27 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:21:27 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:21:27 | INFO     | Total pixeles en dataset: 80942
+2026-06-03 23:21:27 | INFO     | Pixeles por clase:
+2026-06-03 23:21:27 | INFO     |   - Playa_sal: 27941 pixeles (34.52%)
+2026-06-03 23:21:27 | INFO     |   - Agua: 27112 pixeles (33.50%)
+2026-06-03 23:21:27 | INFO     |   - Arena: 25889 pixeles (31.98%)
+2026-06-03 23:21:28 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:21:28 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:21:28 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:21:28 | INFO     | Split estratificado completado | train=56659 test=24283
+2026-06-03 23:21:28 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:21:28 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:21:28 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:21:28 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:21:29 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:21:29 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:21:30 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_KNN.png
+2026-06-03 23:21:30 | INFO     | Entrenando modelo: GaussianNB
+2026-06-03 23:21:30 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_GaussianNB.png
+2026-06-03 23:21:30 | INFO     | Entrenando modelo: MLPClassifier
+2026-06-03 23:21:34 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_MLPClassifier.png
+2026-06-03 23:21:34 | INFO     | Entrenando modelo: RandomForest
+2026-06-03 23:21:37 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_RandomForest.png
+2026-06-03 23:21:37 | INFO     | Mejor modelo seleccionado: SVM
+2026-06-03 23:21:37 | INFO     | Score mejor modelo | f1_macro=1.0000 kappa=1.0000
+2026-06-03 23:21:38 | INFO     | Graficos comparativos generados: 5
+2026-06-03 23:21:38 | INFO     | Modelo entrenado exportado: outputs\best_model_SVM.joblib
+2026-06-03 23:21:38 | INFO     | Reporte final generado: outputs\final_report.md
+2026-06-03 23:21:38 | INFO     | Pipeline finalizado con exito
+2026-06-03 23:21:38 | INFO     | Archivos clave:
+2026-06-03 23:21:38 | INFO     |   - Dataset TSV: outputs\training.tsv
+2026-06-03 23:21:38 | INFO     |   - Metricas: outputs\metrics_models.csv
+2026-06-03 23:21:38 | INFO     |   - Ranking: outputs\ranking_models.csv
+2026-06-03 23:21:38 | INFO     |   - Modelo: outputs\best_model_SVM.joblib
+2026-06-03 23:21:38 | INFO     |   - Reporte: outputs\final_report.md
+2026-06-03 23:30:57 | INFO     | Iniciando pipeline de clasificacion Sentinel-2
+2026-06-03 23:30:57 | INFO     | Raster detectado: raster.tif | width=5490 height=5490 bandas=9
+2026-06-03 23:30:58 | INFO     | Poligonos validos para extraccion: 20
+2026-06-03 23:30:58 | WARNING  | Esquema de bandas detectado sin B8. El pipeline continua con 9 bandas: ['B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8A', 'B11', 'B12']
+2026-06-03 23:30:58 | INFO     | Resumen raster: width=5490 height=5490 bandas=9 dtype=uint16 nodata=None
+2026-06-03 23:30:58 | INFO     | Total pixeles en dataset: 80942
+2026-06-03 23:30:58 | INFO     | Pixeles por clase:
+2026-06-03 23:30:58 | INFO     |   - Playa_sal: 27941 pixeles (34.52%)
+2026-06-03 23:30:58 | INFO     |   - Agua: 27112 pixeles (33.50%)
+2026-06-03 23:30:58 | INFO     |   - Arena: 25889 pixeles (31.98%)
+2026-06-03 23:30:58 | INFO     | Dataset completo exportado: outputs\training_full.tsv
+2026-06-03 23:30:58 | INFO     | Dataset (usado para entrenamiento) exportado: outputs\training.tsv
+2026-06-03 23:30:58 | INFO     | Clases codificadas: ['Agua', 'Arena', 'Playa_sal']
+2026-06-03 23:30:59 | INFO     | Split estratificado completado | train=56659 test=24283
+2026-06-03 23:30:59 | INFO     | Modelos a entrenar: ['DecisionTree', 'SVM', 'KNN', 'GaussianNB', 'MLPClassifier', 'RandomForest']
+2026-06-03 23:30:59 | INFO     | Entrenando modelo: DecisionTree
+2026-06-03 23:31:04 | INFO     | DecisionTree | Mejor score CV (f1_macro): 0.9998
+2026-06-03 23:31:04 | INFO     | DecisionTree | Mejores hiperparametros: {'clf__max_depth': None, 'clf__min_samples_split': 2}
+2026-06-03 23:31:04 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_DecisionTree.png
+2026-06-03 23:31:04 | INFO     | Entrenando modelo: SVM
+2026-06-03 23:31:06 | INFO     | SVM | Mejor score CV (f1_macro): 1.0000
+2026-06-03 23:31:06 | INFO     | SVM | Mejores hiperparametros: {'clf__C': 1.0, 'clf__gamma': 'scale'}
+2026-06-03 23:31:07 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_SVM.png
+2026-06-03 23:31:07 | INFO     | Entrenando modelo: KNN
+2026-06-03 23:31:12 | INFO     | KNN | Mejor score CV (f1_macro): 1.0000
+2026-06-03 23:31:12 | INFO     | KNN | Mejores hiperparametros: {'clf__n_neighbors': 3, 'clf__weights': 'uniform'}
+2026-06-03 23:31:13 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_KNN.png
+2026-06-03 23:31:13 | INFO     | Entrenando modelo: GaussianNB
+2026-06-03 23:31:13 | INFO     | GaussianNB | Mejor score CV (f1_macro): 0.9865
+2026-06-03 23:31:13 | INFO     | GaussianNB | Mejores hiperparametros: {'clf__var_smoothing': 1e-09}
+2026-06-03 23:31:13 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_GaussianNB.png
+2026-06-03 23:31:13 | INFO     | Entrenando modelo: MLPClassifier
+2026-06-03 23:32:49 | INFO     | MLPClassifier | Mejor score CV (f1_macro): 0.9999
+2026-06-03 23:32:49 | INFO     | MLPClassifier | Mejores hiperparametros: {'clf__alpha': 0.0001, 'clf__hidden_layer_sizes': (128, 128), 'clf__learning_rate_init': 0.001}
+2026-06-03 23:32:49 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_MLPClassifier.png
+2026-06-03 23:32:49 | INFO     | Entrenando modelo: RandomForest
+2026-06-03 23:35:33 | INFO     | RandomForest | Mejor score CV (f1_macro): 1.0000
+2026-06-03 23:35:33 | INFO     | RandomForest | Mejores hiperparametros: {'clf__max_depth': None, 'clf__min_samples_split': 2, 'clf__n_estimators': 200}
+2026-06-03 23:35:34 | INFO     | Matriz de confusion guardada: outputs\confusion_matrices\confusion_matrix_RandomForest.png
+2026-06-03 23:35:34 | INFO     | Mejor modelo seleccionado: SVM
+2026-06-03 23:35:34 | INFO     | Score mejor modelo | f1_macro=1.0000 kappa=1.0000
+2026-06-03 23:35:35 | INFO     | Graficos comparativos generados: 5
+2026-06-03 23:35:35 | INFO     | Modelo entrenado exportado: outputs\best_model_SVM.joblib
+2026-06-03 23:35:35 | INFO     | Reporte final generado: outputs\final_report.md
+2026-06-03 23:35:35 | INFO     | Pipeline finalizado con exito
+2026-06-03 23:35:35 | INFO     | Archivos clave:
+2026-06-03 23:35:35 | INFO     |   - Dataset TSV: outputs\training.tsv
+2026-06-03 23:35:35 | INFO     |   - Metricas: outputs\metrics_models.csv
+2026-06-03 23:35:35 | INFO     |   - Ranking: outputs\ranking_models.csv
+2026-06-03 23:35:35 | INFO     |   - Modelo: outputs\best_model_SVM.joblib
+2026-06-03 23:35:35 | INFO     |   - Reporte: outputs\final_report.md
